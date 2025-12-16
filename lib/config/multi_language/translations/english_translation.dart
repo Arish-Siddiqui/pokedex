@@ -1,0 +1,31 @@
+import '../translation_const.dart';
+
+final Map<String, String> englishTranslation = {
+  TranslationConst.continueKey: 'Continue',
+  TranslationConst.chooseLan: 'Choose the language',
+  TranslationConst.welcomeBack: 'Welcome back',
+  TranslationConst.welcomeBackDescription:
+      'Welocme back! Please enter your details.',
+  TranslationConst.username: 'Username',
+  TranslationConst.enterUserName: 'Enter your user name',
+  TranslationConst.password: 'Password',
+  TranslationConst.login: 'Log in',
+  TranslationConst.changeLanguage: 'Change Language',
+  TranslationConst.changeTheme: 'Change Theme',
+  TranslationConst.encryptionDecryption: 'Encryption / Decryption',
+  TranslationConst.pokedex: 'Pokedex',
+  TranslationConst.pokemonDetail: 'Pokemon Detail',
+  TranslationConst.logOut: 'Log out',
+  TranslationConst.appAppearance: 'App Appearance',
+  TranslationConst.light: 'Light',
+  TranslationConst.dark: 'Dark',
+  TranslationConst.system: 'System',
+  TranslationConst.data: 'Data',
+  TranslationConst.enterYourData: 'Enter your data here...',
+  TranslationConst.aes: 'AES',
+  TranslationConst.rsa: 'RSA',
+  TranslationConst.encrypt: 'Encrypt',
+  TranslationConst.encryptedText: 'Encrypted Text:',
+  TranslationConst.decrypt: 'Decrypt',
+  TranslationConst.decryptedText: 'Decrypted Text:',
+};

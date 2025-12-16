@@ -1,0 +1,31 @@
+import '../translation_const.dart';
+
+final Map<String, String> hindiTranslation = {
+  TranslationConst.continueKey: 'जारी रखें',
+  TranslationConst.chooseLan: 'भाषा चुनें',
+  TranslationConst.welcomeBack: 'वापस आपका स्वागत है',
+  TranslationConst.welcomeBackDescription:
+      'वापस आपका स्वागत है! कृपया अपनी जानकारी दर्ज करें।',
+  TranslationConst.username: 'उपयोगकर्ता नाम',
+  TranslationConst.enterUserName: 'अपना उपयोगकर्ता नाम दर्ज करें',
+  TranslationConst.password: 'पासवर्ड',
+  TranslationConst.login: 'लॉग इन करें',
+  TranslationConst.changeLanguage: 'भाषा बदलें',
+  TranslationConst.changeTheme: 'थीम बदलें',
+  TranslationConst.encryptionDecryption: 'एन्क्रिप्शन / डिक्रिप्शन',
+  TranslationConst.pokedex: 'पोकेडेक्स',
+  TranslationConst.pokemonDetail: 'पोकेमॉन विवरण',
+  TranslationConst.logOut: 'लॉग आउट',
+  TranslationConst.appAppearance: 'ऐप का स्वरूप',
+  TranslationConst.light: 'हल्का',
+  TranslationConst.dark: 'गहरा',
+  TranslationConst.system: 'सिस्टम',
+  TranslationConst.data: 'डेटा',
+  TranslationConst.enterYourData: 'यहाँ अपना डेटा दर्ज करें...',
+  TranslationConst.aes: 'एईएस',
+  TranslationConst.rsa: 'आरएसए',
+  TranslationConst.encrypt: 'एन्क्रिप्ट करें',
+  TranslationConst.encryptedText: 'एन्क्रिप्ट किया गया पाठ:',
+  TranslationConst.decrypt: 'डिक्रिप्ट करें',
+  TranslationConst.decryptedText: 'डिक्रिप्ट किया गया पाठ:',
+};

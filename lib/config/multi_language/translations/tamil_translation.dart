@@ -1,0 +1,31 @@
+import '../translation_const.dart';
+
+final Map<String, String> tamilTranslation = {
+  TranslationConst.continueKey: 'தொடரவும்',
+  TranslationConst.chooseLan: 'மொழியை தேர்வு செய்யவும்',
+  TranslationConst.welcomeBack: 'மீண்டும் வரவேற்கிறோம்',
+  TranslationConst.welcomeBackDescription:
+      'மீண்டும் வரவேற்கிறோம்! தயவுசெய்து உங்கள் விவரங்களை உள்ளிடுங்கள்.',
+  TranslationConst.username: 'பயனர் பெயர்',
+  TranslationConst.enterUserName: 'உங்கள் பயனர் பெயரை உள்ளிடுங்கள்',
+  TranslationConst.password: 'கடவுச்சொல்',
+  TranslationConst.login: 'உள்நுழையுங்கள்',
+  TranslationConst.changeLanguage: 'மொழியை மாற்று',
+  TranslationConst.changeTheme: 'தீமைக் மாற்று',
+  TranslationConst.encryptionDecryption: 'குறியாக்கம் / குறியாக்க நீக்கம்',
+  TranslationConst.pokedex: 'போக்கெடெக்ஸ்',
+  TranslationConst.pokemonDetail: 'போகிமான் விவரம்',
+  TranslationConst.logOut: 'வெளியேறு',
+  TranslationConst.appAppearance: 'செயலி தோற்றம்',
+  TranslationConst.light: 'ஒளி',
+  TranslationConst.dark: 'இருள்',
+  TranslationConst.system: 'அமைப்பு',
+  TranslationConst.data: 'தரவு',
+  TranslationConst.enterYourData: 'உங்கள் தரவை இங்கே உள்ளிடுங்கள்...',
+  TranslationConst.aes: 'ஏஇஎஸ்',
+  TranslationConst.rsa: 'ஆர்எஸ்ஏ',
+  TranslationConst.encrypt: 'குறியாக்கம் செய்',
+  TranslationConst.encryptedText: 'குறியாக்கப்பட்ட உரை:',
+  TranslationConst.decrypt: 'குறியாக்கம் நீக்கு',
+  TranslationConst.decryptedText: 'குறியாக்கம் நீக்கப்பட்ட உரை:',
+};
