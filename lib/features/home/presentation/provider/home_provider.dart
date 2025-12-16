@@ -138,6 +138,7 @@ final homeProvider = NotifierProvider<HomeStateNotifier, HomeState>(
   () => sl<HomeStateNotifier>(),
 );
 
-final getPokemonDetailProvider = FutureProvider.family<void, String>(
-  (ref, url) => ref.read(homeProvider.notifier).fetchPokemonDetail(url),
-);
+final getPokemonDetailProvider = FutureProvider.autoDispose
+    .family<void, String>(
+      (ref, url) => ref.read(homeProvider.notifier).fetchPokemonDetail(url),
+    );

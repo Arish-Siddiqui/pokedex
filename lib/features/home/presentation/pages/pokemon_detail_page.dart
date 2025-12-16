@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../../../../config/multi_language/multi_language.dart';
@@ -18,11 +17,6 @@ class PokemonDetailPage extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final theme = Theme.of(context);
     final loc = ref.watch(localizationProvider);
-
-    useEffect(() {
-      Future.microtask(() => ref.invalidate(getPokemonDetailProvider));
-      return null;
-    }, []);
 
     final state = ref.watch(homeProvider);
 
