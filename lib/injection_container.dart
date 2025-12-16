@@ -97,7 +97,9 @@ Future<void> init() async {
     () => HomeRemoteDataSourceImpl(dioClient: sl()),
   );
   sl.registerLazySingleton<HomeLocalDataSource>(
-    () => HomeLocalDataSourceImpl(pokemonDBPref: sl(instanceName: pokemonBox)),
+    () => HomeLocalDataSourceImpl(
+      // pokemonDBPref: sl(instanceName: pokemonBox)
+    ),
   );
   //# Service
   sl.registerLazySingleton<CryptoService>(() => CryptoService());
@@ -110,10 +112,10 @@ Future<void> init() async {
   final userDB = AppLocalPrefs(userBox);
   await userDB.init();
   sl.registerLazySingleton<AppLocalPrefs>(() => userDB, instanceName: userBox);
-  final pokemonDB = AppLocalPrefs(pokemonBox);
-  await pokemonDB.init();
-  sl.registerLazySingleton<AppLocalPrefs>(
-    () => pokemonDB,
-    instanceName: pokemonBox,
-  );
+  // final pokemonDB = AppLocalPrefs(pokemonBox);
+  // await pokemonDB.init();
+  // sl.registerLazySingleton<AppLocalPrefs>(
+  //   () => pokemonDB,
+  //   instanceName: pokemonBox,
+  // );
 }

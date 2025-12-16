@@ -9,7 +9,7 @@ abstract class HomeRepository {
   Future<Either<Failure, PokemonDetail>> getPokemonDetail({
     required String url,
   });
-  Either<Failure, List<Pokemon>> getLocalPokemonList();
+  Future<Either<Failure, List<Pokemon>>> getLocalPokemonList();
   Future<Either<Failure, void>> storePokemonLocally({
     required List<Pokemon> pokemons,
   });

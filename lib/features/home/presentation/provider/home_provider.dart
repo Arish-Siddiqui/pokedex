@@ -1,5 +1,3 @@
-// import 'dart:isolate';
-
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../config/router/app_navigation.dart';
@@ -88,10 +86,6 @@ class HomeStateNotifier extends Notifier<HomeState> {
         );
         if (previousOffset == 0) {
           _storePokemonsLocally(pokemons: response);
-          // await Isolate.run(() async {
-          // print("Storing data locally using isolate");
-
-          // });
         }
       },
     );

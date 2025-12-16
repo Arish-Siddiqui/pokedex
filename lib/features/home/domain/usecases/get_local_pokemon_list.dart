@@ -11,6 +11,6 @@ class GetLocalPokemonList implements Usecase<List<Pokemon>, NoParams> {
 
   @override
   Future<Either<Failure, List<Pokemon>>> call(NoParams params) async {
-    return repository.getLocalPokemonList();
+    return await repository.getLocalPokemonList();
   }
 }

@@ -15,6 +15,10 @@ class AppLocalPrefs {
     }
   }
 
+  Future<void> close() async {
+    await box.close();
+  }
+
   /// Create or Update by ID
   Future<void> createOrUpdate(String id, Map<String, dynamic> data) async {
     await box.put(id, data);

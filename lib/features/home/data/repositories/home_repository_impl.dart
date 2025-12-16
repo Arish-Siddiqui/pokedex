@@ -67,9 +67,9 @@ class HomeRepositoryImpl implements HomeRepository {
   }
 
   @override
-  Either<Failure, List<Pokemon>> getLocalPokemonList() {
+  Future<Either<Failure, List<Pokemon>>> getLocalPokemonList() async {
     try {
-      final response = localDataSource.getPokemonList();
+      final response = await localDataSource.getPokemonList();
       return Right(response);
     } catch (e) {
       return Left(ServerFailure(e.toString()));
